@@ -51,7 +51,7 @@ template.innerHTML = `
           <br/>
           <hr/>
           <center>
-            <img id="stopButton"  src="./assets/imgs/stop.jpg" style="width:70px; height:70px; border-radius:100%;">
+            <img id="stopButton" ALT="Volume:%s" src="./assets/imgs/stop.jpg" style="width:70px; height:70px; border-radius:100%;">
             <img id="playButton"  src="./assets/imgs/play.jpg" style="width:70px; height:70px; border-radius:100%;">
             <img id="replayButton"  src="./assets/imgs/replay.jpg" style="width:70px; height:70px;border-radius:100%;">
             <img id="pauseButton"  src="./assets/imgs/pause.jpg" style="width:70px; height:70px;border-radius:100%;">
@@ -64,10 +64,10 @@ template.innerHTML = `
           <progress id = "progressRuler" min=0  value=0 step=0.1></progress>
           <br/>
           <hr/>
-          <webaudio-knob id="knobSteroe" tooltip="Volume:%s" src="./assets/imgs/metal.png" sprites="30" value=0 min="-1.5" max="1.5" step=0.1 diameter="128" style="height:128px">
+          <webaudio-knob id="knobSteroe" tooltip="Balancer:%s" src="./assets/imgs/metal.png" sprites="30" value=0 min="-1.5" max="1.5" step=0.1 diameter="128" style="height:128px">
               Balance G/D
           </webaudio-knob>
-          <webaudio-knob id="jambalaya" src="./assets/imgs/metal.png" sprites="30" diameter="128" style="height:128px" min=0 max=3 step=0.1 value=1.5>
+          <webaudio-knob id="jambalaya" tooltip="Volume:%s" src="./assets/imgs/metal.png" sprites="30" diameter="128" style="height:128px" min=0 max=3 step=0.1 value=1.5>
               Volume
           </webaudio-knob>
         <center>
